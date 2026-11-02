@@ -46,7 +46,7 @@ export default function App() {
         <div className="hero">
           <h1>Go for modern systems: <span>one binary, a million goroutines</span></h1>
           <p>Hope you guys enjoy this is my second documentation, well switched to building scalable with go recently as the 
-            month of GSOC has arrived and also didnt get a date this Navratri 😭 you can also read my previous documenation and connect me through there:{' '}
+            month of GSOC has arrived, and also didnt get a date this Navratri 😭 you can also read my previous documenation and connect me through there:{' '}
             <a href="https://akashverma712.github.io/scaling_systems/">scaling log</a>, which pushed one API to 1.2M req/sec.</p>
           <div className="stats">
             <div className="stat"><b>~2 KB</b><small>initial goroutine stack</small></div>
