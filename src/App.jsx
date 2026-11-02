@@ -320,7 +320,7 @@ git push -u origin main
 `}</Code>
           <p>Then on GitHub: <b>Settings → Pages → Source: GitHub Actions</b>. Watch the <b>Actions</b> tab; when green, the site is at <code>https://&lt;username&gt;.github.io/&lt;repo&gt;/</code>. Every push to <code>main</code> redeploys.</p>
         </section> */}
-        <footer>Built with React + Vite. Reference design: <a href="https://akashverma712.github.io/scaling_systems/">scaling_systems</a>.</footer>
+        <footer> Loved what you saw lets connect gophers <a href="https://github.com/akashverma712/">गिटहब </a>.</footer>
       </main>
     </div>
   )
