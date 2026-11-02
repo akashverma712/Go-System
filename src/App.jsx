@@ -23,7 +23,7 @@ const Code = ({ cap, children }) => (
 const NAV = [
   ['why', 'Why Go, system-design view'], ['goroutines', 'Goroutines'], ['channels', 'Channels'],
   ['waitgroup', 'WaitGroup'], ['mutex', 'Mutex & atomics'], ['deadlock', 'Deadlocks'],
-  ['optimize', 'Optimized patterns'], ['cheats', 'Cheat sheet'], ['deploy', 'Deploy this site'],
+  ['optimize', 'Optimized patterns'], ['cheats', 'Cheat sheet']
 ]
 
 export default function App() {
@@ -45,7 +45,8 @@ export default function App() {
       <main>
         <div className="hero">
           <h1>Go for modern systems: <span>one binary, a million goroutines</span></h1>
-          <p>A field guide to why Go fits today's backend architecture, and how to write its concurrency primitives correctly and fast. Companion to the{' '}
+          <p>Hope you guys enjoy this is my second documentation, well switched to building scalable with go recently as the 
+            month of GSOC has arrived and also didnt get a date this Navratri 😭 you can also read my previous documenation and connect me through there:{' '}
             <a href="https://akashverma712.github.io/scaling_systems/">scaling log</a>, which pushed one API to 1.2M req/sec.</p>
           <div className="stats">
             <div className="stat"><b>~2 KB</b><small>initial goroutine stack</small></div>
@@ -306,7 +307,7 @@ srv.Shutdown(shutdownCtx)             // drains in-flight requests
           </table>
         </section>
 
-        <section id="deploy">
+        {/* <section id="deploy">
           <h2><span className="n">09</span>Deploy this site on GitHub Pages</h2>
           <p>The repo already contains <code>.github/workflows/deploy.yml</code>, so you only push.</p>
           <Code cap="terminal">{`
@@ -318,7 +319,7 @@ git remote add origin https://github.com/<username>/<repo>.git
 git push -u origin main
 `}</Code>
           <p>Then on GitHub: <b>Settings → Pages → Source: GitHub Actions</b>. Watch the <b>Actions</b> tab; when green, the site is at <code>https://&lt;username&gt;.github.io/&lt;repo&gt;/</code>. Every push to <code>main</code> redeploys.</p>
-        </section>
+        </section> */}
         <footer>Built with React + Vite. Reference design: <a href="https://akashverma712.github.io/scaling_systems/">scaling_systems</a>.</footer>
       </main>
     </div>
